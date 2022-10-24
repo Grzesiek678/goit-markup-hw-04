@@ -152,6 +152,12 @@ ul {
   cursor: pointer;
   border-radius: 4px;
 }
+
+.button:hover,
+.button:focus {
+  background-color: var(--white);
+  color: var(--lightblue);
+}
 .main {
   background-color: #2f303a;
   color: var(--white);
