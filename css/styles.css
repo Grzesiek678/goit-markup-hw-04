@@ -75,6 +75,10 @@ body {
 .mailheader {
   color: #757575;
   text-decoration: none;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .mailheader:hover .mail-icon,
@@ -96,6 +100,10 @@ body {
 .telheader {
   color: #757575;
   text-decoration: none;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 .telheader:hover .tel-icon,
@@ -110,7 +118,7 @@ body {
   color: var(--lightblue);
 }
 
-.tellmail .agencja {
+.telmail .agencja {
   text-decoration: none;
   color: #212121;
 }
@@ -158,7 +166,9 @@ ul {
   background-color: var(--white);
   color: var(--lightblue);
 }
+
 .main {
+  margin: 0 auto;
   background-color: #2f303a;
   color: var(--white);
   font-size: 44px;
@@ -170,6 +180,8 @@ ul {
     url("../images/background1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: 1600px;
+  background-color: #2f303a;
 }
 .list {
   display: flex;
@@ -509,3 +521,5 @@ header {
   --color3: var(--lightblue);
   --color4: var(--white);
 }
+
+.mailheader;
